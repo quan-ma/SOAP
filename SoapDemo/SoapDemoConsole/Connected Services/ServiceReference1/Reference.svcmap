@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c8c09fa5-da16-4e41-bc0e-cd88f15edc90" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/SoapDemo.Client/Pizza.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Pizza.wsdl" MetadataType="Wsdl" ID="7fff9077-5ba4-448b-b69a-9e30734bfddf" SourceId="1" SourceUrl="http://localhost/SoapDemo.Client/Pizza.svc?wsdl" />
+    <MetadataFile FileName="Pizza.disco" MetadataType="Disco" ID="5499d081-22e1-4f44-a75f-b41f6f5fa547" SourceId="1" SourceUrl="http://localhost/SoapDemo.Client/Pizza.svc?disco" />
+    <MetadataFile FileName="Pizza.xsd" MetadataType="Schema" ID="61d6542c-6a42-4fcc-ba67-53ac6bea6b41" SourceId="1" SourceUrl="http://localhost/SoapDemo.Client/Pizza.svc?xsd=xsd1" />
+    <MetadataFile FileName="Pizza1.xsd" MetadataType="Schema" ID="b294f484-24c6-43d7-886a-194193d7ed88" SourceId="1" SourceUrl="http://localhost/SoapDemo.Client/Pizza.svc?xsd=xsd0" />
+    <MetadataFile FileName="Pizza2.xsd" MetadataType="Schema" ID="d303a4fc-431d-4b3e-b1df-79c6959b421f" SourceId="1" SourceUrl="http://localhost/SoapDemo.Client/Pizza.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
